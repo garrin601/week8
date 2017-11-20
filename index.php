@@ -165,14 +165,6 @@ class model
 
 
 
-public function insert ()
-
-{
-	$sql = "Insert Into ".static::$tableName." (". static::$columnString . ") Values(".static::$valueString . ") ";
-
-	return $sql;
-
-}
 
 public function update()
 
